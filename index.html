@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AMG DiputaciÃ³n - Sistema de GestiÃ³n Parlamentaria</title>
+  <title>AMG DiputaciÃÂ³n - Sistema de GestiÃÂ³n Parlamentaria</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -48,28 +48,28 @@ const COMUNAS = [
 ];
 
 const PROYECTOS_LEY = [
-  { id: 1, nombre: "Reforma al Sistema de Salud Primaria", boletin: "16234-11", estado: "En comisiÃ³n", comision: "Salud", urgencia: "Simple", fechaIngreso: "2026-01-15", avance: 45 },
-  { id: 2, nombre: "ProtecciÃ³n de Humedales Urbanos", boletin: "16301-12", estado: "Primer trÃ¡mite", comision: "Medio Ambiente", urgencia: "Suma", fechaIngreso: "2026-02-03", avance: 30 },
-  { id: 3, nombre: "Ley de InclusiÃ³n Laboral para Personas con Discapacidad", boletin: "16112-13", estado: "Segundo trÃ¡mite", comision: "Trabajo", urgencia: "Ninguna", fechaIngreso: "2025-11-20", avance: 70 },
-  { id: 4, nombre: "RegulaciÃ³n del Teletrabajo en Sector PÃºblico", boletin: "16405-13", estado: "Aprobado en general", comision: "Gobierno Interior", urgencia: "DiscusiÃ³n inmediata", fechaIngreso: "2026-03-01", avance: 85 },
-  { id: 5, nombre: "Reforma al Transporte PÃºblico Regional", boletin: "16278-15", estado: "En comisiÃ³n", comision: "Obras PÃºblicas", urgencia: "Simple", fechaIngreso: "2026-01-28", avance: 20 },
-  { id: 6, nombre: "Ley de Ciberseguridad para Instituciones del Estado", boletin: "16350-07", estado: "Primer trÃ¡mite", comision: "Defensa", urgencia: "Suma", fechaIngreso: "2026-02-15", avance: 55 },
+  { id: 1, nombre: "Reforma al Sistema de Salud Primaria", boletin: "16234-11", estado: "En comisiÃÂ³n", comision: "Salud", urgencia: "Simple", fechaIngreso: "2026-01-15", avance: 45 },
+  { id: 2, nombre: "ProtecciÃÂ³n de Humedales Urbanos", boletin: "16301-12", estado: "Primer trÃÂ¡mite", comision: "Medio Ambiente", urgencia: "Suma", fechaIngreso: "2026-02-03", avance: 30 },
+  { id: 3, nombre: "Ley de InclusiÃÂ³n Laboral para Personas con Discapacidad", boletin: "16112-13", estado: "Segundo trÃÂ¡mite", comision: "Trabajo", urgencia: "Ninguna", fechaIngreso: "2025-11-20", avance: 70 },
+  { id: 4, nombre: "RegulaciÃÂ³n del Teletrabajo en Sector PÃÂºblico", boletin: "16405-13", estado: "Aprobado en general", comision: "Gobierno Interior", urgencia: "DiscusiÃÂ³n inmediata", fechaIngreso: "2026-03-01", avance: 85 },
+  { id: 5, nombre: "Reforma al Transporte PÃÂºblico Regional", boletin: "16278-15", estado: "En comisiÃÂ³n", comision: "Obras PÃÂºblicas", urgencia: "Simple", fechaIngreso: "2026-01-28", avance: 20 },
+  { id: 6, nombre: "Ley de Ciberseguridad para Instituciones del Estado", boletin: "16350-07", estado: "Primer trÃÂ¡mite", comision: "Defensa", urgencia: "Suma", fechaIngreso: "2026-02-15", avance: 55 },
 ];
 
 const MOCIONES = [
-  { id: 1, titulo: "MociÃ³n sobre regulaciÃ³n de ferias libres", fecha: "2026-03-10", estado: "Presentada", tipo: "MociÃ³n" },
-  { id: 2, titulo: "IndicaciÃ³n a proyecto de ley de vivienda", fecha: "2026-03-05", estado: "En trÃ¡mite", tipo: "IndicaciÃ³n" },
-  { id: 3, titulo: "MociÃ³n sobre protecciÃ³n animal en zonas rurales", fecha: "2026-02-20", estado: "Aprobada", tipo: "MociÃ³n" },
-  { id: 4, titulo: "MociÃ³n sobre acceso a internet en zonas rurales", fecha: "2026-02-15", estado: "Presentada", tipo: "MociÃ³n" },
-  { id: 5, titulo: "IndicaciÃ³n a reforma educacional", fecha: "2026-01-30", estado: "Rechazada", tipo: "IndicaciÃ³n" },
+  { id: 1, titulo: "MociÃÂ³n sobre regulaciÃÂ³n de ferias libres", fecha: "2026-03-10", estado: "Presentada", tipo: "MociÃÂ³n" },
+  { id: 2, titulo: "IndicaciÃÂ³n a proyecto de ley de vivienda", fecha: "2026-03-05", estado: "En trÃÂ¡mite", tipo: "IndicaciÃÂ³n" },
+  { id: 3, titulo: "MociÃÂ³n sobre protecciÃÂ³n animal en zonas rurales", fecha: "2026-02-20", estado: "Aprobada", tipo: "MociÃÂ³n" },
+  { id: 4, titulo: "MociÃÂ³n sobre acceso a internet en zonas rurales", fecha: "2026-02-15", estado: "Presentada", tipo: "MociÃÂ³n" },
+  { id: 5, titulo: "IndicaciÃÂ³n a reforma educacional", fecha: "2026-01-30", estado: "Rechazada", tipo: "IndicaciÃÂ³n" },
 ];
 
 const OFICIOS_ENVIADOS = [
-  { id: 1, destinatario: "Ministerio de Salud", asunto: "Consulta sobre dotaciÃ³n de personal CESFAM", fecha: "2026-03-20", estado: "Sin respuesta", plazo: "2026-04-20" },
+  { id: 1, destinatario: "Ministerio de Salud", asunto: "Consulta sobre dotaciÃÂ³n de personal CESFAM", fecha: "2026-03-20", estado: "Sin respuesta", plazo: "2026-04-20" },
   { id: 2, destinatario: "SERVIU", asunto: "Estado de proyectos habitacionales comuna 3", fecha: "2026-03-15", estado: "Respondido", plazo: "2026-04-15" },
-  { id: 3, destinatario: "Ministerio de Obras PÃºblicas", asunto: "Avance ruta costera", fecha: "2026-03-01", estado: "Sin respuesta", plazo: "2026-04-01" },
+  { id: 3, destinatario: "Ministerio de Obras PÃÂºblicas", asunto: "Avance ruta costera", fecha: "2026-03-01", estado: "Sin respuesta", plazo: "2026-04-01" },
   { id: 4, destinatario: "Municipalidad de Comuna 1", asunto: "Plan regulador comunal", fecha: "2026-02-25", estado: "Respondido", plazo: "2026-03-25" },
-  { id: 5, destinatario: "Ministerio de EducaciÃ³n", asunto: "Infraestructura escolar", fecha: "2026-02-10", estado: "Vencido", plazo: "2026-03-10" },
+  { id: 5, destinatario: "Ministerio de EducaciÃÂ³n", asunto: "Infraestructura escolar", fecha: "2026-02-10", estado: "Vencido", plazo: "2026-03-10" },
 ];
 
 const ASISTENCIA_DATA = [
@@ -84,42 +84,42 @@ const ASISTENCIA_DATA = [
 const VOTACIONES = [
   { id: 1, proyecto: "Reforma Tributaria", fecha: "2026-03-25", voto: "A favor", resultado: "Aprobado" },
   { id: 2, proyecto: "Ley de Presupuesto Suplementario", fecha: "2026-03-20", voto: "A favor", resultado: "Aprobado" },
-  { id: 3, proyecto: "Proyecto de MinerÃ­a en Zonas Protegidas", fecha: "2026-03-18", voto: "En contra", resultado: "Rechazado" },
-  { id: 4, proyecto: "Acuerdo Comercial con UE", fecha: "2026-03-15", voto: "AbstenciÃ³n", resultado: "Aprobado" },
-  { id: 5, proyecto: "Reforma al CÃ³digo de Aguas", fecha: "2026-03-10", voto: "A favor", resultado: "Aprobado" },
+  { id: 3, proyecto: "Proyecto de MinerÃÂ­a en Zonas Protegidas", fecha: "2026-03-18", voto: "En contra", resultado: "Rechazado" },
+  { id: 4, proyecto: "Acuerdo Comercial con UE", fecha: "2026-03-15", voto: "AbstenciÃÂ³n", resultado: "Aprobado" },
+  { id: 5, proyecto: "Reforma al CÃÂ³digo de Aguas", fecha: "2026-03-10", voto: "A favor", resultado: "Aprobado" },
   { id: 6, proyecto: "Ley de Aborto Libre", fecha: "2026-03-05", voto: "A favor", resultado: "Rechazado" },
 ];
 
 const AGENDA_TERRITORIAL = [
-  { id: 1, titulo: "ReuniÃ³n Junta de Vecinos Los Aromos", comuna: "Comuna 1 - Centro", fecha: "2026-03-30", hora: "10:00", tipo: "ReuniÃ³n" },
+  { id: 1, titulo: "ReuniÃÂ³n Junta de Vecinos Los Aromos", comuna: "Comuna 1 - Centro", fecha: "2026-03-30", hora: "10:00", tipo: "ReuniÃÂ³n" },
   { id: 2, titulo: "Visita CESFAM Sur", comuna: "Comuna 3 - Sur", fecha: "2026-03-31", hora: "09:00", tipo: "Visita" },
   { id: 3, titulo: "Audiencia con dirigentes sindicales", comuna: "Comuna 2 - Norte", fecha: "2026-04-01", hora: "15:00", tipo: "Audiencia" },
-  { id: 4, titulo: "InspecciÃ³n obras viales ruta costera", comuna: "Comuna 6 - Costa", fecha: "2026-04-02", hora: "11:00", tipo: "InspecciÃ³n" },
+  { id: 4, titulo: "InspecciÃÂ³n obras viales ruta costera", comuna: "Comuna 6 - Costa", fecha: "2026-04-02", hora: "11:00", tipo: "InspecciÃÂ³n" },
   { id: 5, titulo: "Mesa de trabajo vivienda social", comuna: "Comuna 5 - Poniente", fecha: "2026-04-03", hora: "14:00", tipo: "Mesa de trabajo" },
-  { id: 6, titulo: "Encuentro con organizaciones medioambientales", comuna: "Comuna 4 - Oriente", fecha: "2026-04-05", hora: "10:30", tipo: "ReuniÃ³n" },
+  { id: 6, titulo: "Encuentro con organizaciones medioambientales", comuna: "Comuna 4 - Oriente", fecha: "2026-04-05", hora: "10:30", tipo: "ReuniÃÂ³n" },
 ];
 
 const CASOS_CIUDADANOS = [
-  { id: 1, solicitante: "MarÃ­a GonzÃ¡lez", comuna: "Comuna 3 - Sur", tema: "Vivienda", descripcion: "Solicita apoyo para subsidio habitacional", estado: "En gestiÃ³n", prioridad: "Alta", fecha: "2026-03-15" },
-  { id: 2, solicitante: "Juan PÃ©rez", comuna: "Comuna 1 - Centro", tema: "Salud", descripcion: "Requiere derivaciÃ³n a especialista", estado: "Resuelto", prioridad: "Media", fecha: "2026-03-10" },
-  { id: 3, solicitante: "AsociaciÃ³n Vecinal RÃ­o Claro", comuna: "Comuna 6 - Costa", tema: "Medio Ambiente", descripcion: "Denuncia contaminaciÃ³n de estero", estado: "En gestiÃ³n", prioridad: "Alta", fecha: "2026-03-20" },
-  { id: 4, solicitante: "Pedro MuÃ±oz", comuna: "Comuna 2 - Norte", tema: "EducaciÃ³n", descripcion: "Beca para estudios tÃ©cnicos", estado: "Pendiente", prioridad: "Baja", fecha: "2026-03-22" },
-  { id: 5, solicitante: "Sindicato Trabajadores Pesca", comuna: "Comuna 6 - Costa", tema: "Trabajo", descripcion: "Condiciones laborales y regulaciÃ³n pesquera", estado: "En gestiÃ³n", prioridad: "Alta", fecha: "2026-03-18" },
-  { id: 6, solicitante: "Rosa SepÃºlveda", comuna: "Comuna 5 - Poniente", tema: "Infraestructura", descripcion: "ReparaciÃ³n de camino rural", estado: "Pendiente", prioridad: "Media", fecha: "2026-03-25" },
+  { id: 1, solicitante: "MarÃÂ­a GonzÃÂ¡lez", comuna: "Comuna 3 - Sur", tema: "Vivienda", descripcion: "Solicita apoyo para subsidio habitacional", estado: "En gestiÃÂ³n", prioridad: "Alta", fecha: "2026-03-15" },
+  { id: 2, solicitante: "Juan PÃÂ©rez", comuna: "Comuna 1 - Centro", tema: "Salud", descripcion: "Requiere derivaciÃÂ³n a especialista", estado: "Resuelto", prioridad: "Media", fecha: "2026-03-10" },
+  { id: 3, solicitante: "AsociaciÃÂ³n Vecinal RÃÂ­o Claro", comuna: "Comuna 6 - Costa", tema: "Medio Ambiente", descripcion: "Denuncia contaminaciÃÂ³n de estero", estado: "En gestiÃÂ³n", prioridad: "Alta", fecha: "2026-03-20" },
+  { id: 4, solicitante: "Pedro MuÃÂ±oz", comuna: "Comuna 2 - Norte", tema: "EducaciÃÂ³n", descripcion: "Beca para estudios tÃÂ©cnicos", estado: "Pendiente", prioridad: "Baja", fecha: "2026-03-22" },
+  { id: 5, solicitante: "Sindicato Trabajadores Pesca", comuna: "Comuna 6 - Costa", tema: "Trabajo", descripcion: "Condiciones laborales y regulaciÃÂ³n pesquera", estado: "En gestiÃÂ³n", prioridad: "Alta", fecha: "2026-03-18" },
+  { id: 6, solicitante: "Rosa SepÃÂºlveda", comuna: "Comuna 5 - Poniente", tema: "Infraestructura", descripcion: "ReparaciÃÂ³n de camino rural", estado: "Pendiente", prioridad: "Media", fecha: "2026-03-25" },
 ];
 
 const OFICIOS_FISCALIZADORES = [
-  { id: 1, destinatario: "Ministerio de Salud", asunto: "Incumplimiento dotaciÃ³n CESFAM comunal", fecha: "2026-03-18", estado: "Enviado", plazo: "2026-04-18", respuesta: null },
-  { id: 2, destinatario: "CONAF", asunto: "FiscalizaciÃ³n tala ilegal sector cordillerano", fecha: "2026-03-10", estado: "Respondido", plazo: "2026-04-10", respuesta: "Se informa que se realizaron operativos..." },
-  { id: 3, destinatario: "Superintendencia de Medio Ambiente", asunto: "ContaminaciÃ³n industrial zona norte", fecha: "2026-03-05", estado: "Vencido", plazo: "2026-04-05", respuesta: null },
-  { id: 4, destinatario: "Ministerio de EducaciÃ³n", asunto: "Estado de infraestructura escolar distrito", fecha: "2026-02-20", estado: "Respondido", plazo: "2026-03-20", respuesta: "Se adjunta informe tÃ©cnico..." },
-  { id: 5, destinatario: "DirecciÃ³n del Trabajo", asunto: "FiscalizaciÃ³n de condiciones laborales en temporada agrÃ­cola", fecha: "2026-02-15", estado: "Enviado", plazo: "2026-03-15", respuesta: null },
+  { id: 1, destinatario: "Ministerio de Salud", asunto: "Incumplimiento dotaciÃÂ³n CESFAM comunal", fecha: "2026-03-18", estado: "Enviado", plazo: "2026-04-18", respuesta: null },
+  { id: 2, destinatario: "CONAF", asunto: "FiscalizaciÃÂ³n tala ilegal sector cordillerano", fecha: "2026-03-10", estado: "Respondido", plazo: "2026-04-10", respuesta: "Se informa que se realizaron operativos..." },
+  { id: 3, destinatario: "Superintendencia de Medio Ambiente", asunto: "ContaminaciÃÂ³n industrial zona norte", fecha: "2026-03-05", estado: "Vencido", plazo: "2026-04-05", respuesta: null },
+  { id: 4, destinatario: "Ministerio de EducaciÃÂ³n", asunto: "Estado de infraestructura escolar distrito", fecha: "2026-02-20", estado: "Respondido", plazo: "2026-03-20", respuesta: "Se adjunta informe tÃÂ©cnico..." },
+  { id: 5, destinatario: "DirecciÃÂ³n del Trabajo", asunto: "FiscalizaciÃÂ³n de condiciones laborales en temporada agrÃÂ­cola", fecha: "2026-02-15", estado: "Enviado", plazo: "2026-03-15", respuesta: null },
 ];
 
 const COMISIONES_INVESTIGADORAS = [
-  { id: 1, nombre: "ComisiÃ³n Investigadora sobre uso de fondos pÃºblicos en emergencias", estado: "Activa", sesiones: 8, hallazgos: 3, inicio: "2026-01-15" },
-  { id: 2, nombre: "ComisiÃ³n sobre irregularidades en licitaciones de infraestructura", estado: "Activa", sesiones: 5, hallazgos: 2, inicio: "2026-02-01" },
-  { id: 3, nombre: "ComisiÃ³n sobre gestiÃ³n del agua en zonas de sequÃ­a", estado: "Finalizada", sesiones: 12, hallazgos: 7, inicio: "2025-08-10" },
+  { id: 1, nombre: "ComisiÃÂ³n Investigadora sobre uso de fondos pÃÂºblicos en emergencias", estado: "Activa", sesiones: 8, hallazgos: 3, inicio: "2026-01-15" },
+  { id: 2, nombre: "ComisiÃÂ³n sobre irregularidades en licitaciones de infraestructura", estado: "Activa", sesiones: 5, hallazgos: 2, inicio: "2026-02-01" },
+  { id: 3, nombre: "ComisiÃÂ³n sobre gestiÃÂ³n del agua en zonas de sequÃÂ­a", estado: "Finalizada", sesiones: 12, hallazgos: 7, inicio: "2025-08-10" },
 ];
 
 // ==================== ICONS (SVG inline) ====================
@@ -185,13 +185,13 @@ const ProgressBar = ({ value, color = COLORS.info, height = 8 }) => (
 
 const EstadoBadge = ({ estado }) => {
   const map = {
-    "En comisiÃ³n": "#3b82f6", "Primer trÃ¡mite": "#8b5cf6", "Segundo trÃ¡mite": "#f59e0b",
-    "Aprobado en general": "#22c55e", "Presentada": "#3b82f6", "En trÃ¡mite": "#f59e0b",
+    "En comisiÃÂ³n": "#3b82f6", "Primer trÃÂ¡mite": "#8b5cf6", "Segundo trÃÂ¡mite": "#f59e0b",
+    "Aprobado en general": "#22c55e", "Presentada": "#3b82f6", "En trÃÂ¡mite": "#f59e0b",
     "Aprobada": "#22c55e", "Rechazada": "#ef4444", "Sin respuesta": "#f59e0b",
     "Respondido": "#22c55e", "Vencido": "#ef4444", "Enviado": "#3b82f6",
-    "En gestiÃ³n": "#3b82f6", "Resuelto": "#22c55e", "Pendiente": "#f59e0b",
+    "En gestiÃÂ³n": "#3b82f6", "Resuelto": "#22c55e", "Pendiente": "#f59e0b",
     "Activa": "#22c55e", "Finalizada": "#64748b",
-    "DiscusiÃ³n inmediata": "#ef4444", "Suma": "#f59e0b", "Simple": "#3b82f6", "Ninguna": "#94a3b8",
+    "DiscusiÃÂ³n inmediata": "#ef4444", "Suma": "#f59e0b", "Simple": "#3b82f6", "Ninguna": "#94a3b8",
   };
   return <Badge color={map[estado] || "#94a3b8"}>{estado}</Badge>;
 };
@@ -234,7 +234,7 @@ const Dashboard = () => {
   const votosPie = [
     { name: "A favor", value: VOTACIONES.filter(v => v.voto === "A favor").length },
     { name: "En contra", value: VOTACIONES.filter(v => v.voto === "En contra").length },
-    { name: "AbstenciÃ³n", value: VOTACIONES.filter(v => v.voto === "AbstenciÃ³n").length },
+    { name: "AbstenciÃÂ³n", value: VOTACIONES.filter(v => v.voto === "AbstenciÃÂ³n").length },
   ];
   const PIE_COLORS = ["#22c55e", "#ef4444", "#f59e0b"];
 
@@ -243,7 +243,7 @@ const Dashboard = () => {
   return (
     <div>
       <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "16px", marginBottom: "24px" }}>
-        <StatCard icon="legislativo" label="Proyectos de Ley" value={proyectosActivos} color="#3b82f6" sub="3 en comisiÃ³n" />
+        <StatCard icon="legislativo" label="Proyectos de Ley" value={proyectosActivos} color="#3b82f6" sub="3 en comisiÃÂ³n" />
         <StatCard icon="document" label="Oficios pendientes" value={oficiosPendientes} color="#f59e0b" sub="Requieren seguimiento" />
         <StatCard icon="people" label="Casos ciudadanos" value={casosActivos} color="#8b5cf6" sub={`${casosActivos} activos`} />
         <StatCard icon="check" label="Asistencia promedio" value={`${asistenciaPromedio}%`} color="#22c55e" sub="Sala y comisiones" />
@@ -260,7 +260,7 @@ const Dashboard = () => {
               <Tooltip />
               <Legend />
               <Line type="monotone" dataKey="sala" stroke="#3b82f6" strokeWidth={2} name="Sala" dot={{ r: 4 }} />
-              <Line type="monotone" dataKey="comision" stroke="#22c55e" strokeWidth={2} name="ComisiÃ³n" dot={{ r: 4 }} />
+              <Line type="monotone" dataKey="comision" stroke="#22c55e" strokeWidth={2} name="ComisiÃÂ³n" dot={{ r: 4 }} />
             </LineChart>
           </ResponsiveContainer>
         </Card>
@@ -294,7 +294,7 @@ const Dashboard = () => {
           </ResponsiveContainer>
         </Card>
         <Card>
-          <SectionTitle icon="calendar">PrÃ³ximas actividades</SectionTitle>
+          <SectionTitle icon="calendar">PrÃÂ³ximas actividades</SectionTitle>
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
             {AGENDA_TERRITORIAL.slice(0, 4).map(a => (
               <div key={a.id} style={{ display: "flex", alignItems: "center", gap: "12px", padding: "10px", borderRadius: "8px", background: "#f8fafc" }}>
@@ -338,7 +338,7 @@ const Legislativo = () => {
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", marginBottom: "10px" }}>
                   <div style={{ flex: 1, minWidth: 0 }}>
                     <div style={{ fontSize: "15px", fontWeight: 700, color: COLORS.text, marginBottom: "4px" }}>{p.nombre}</div>
-                    <div style={{ fontSize: "12px", color: COLORS.muted }}>BoletÃ­n {p.boletin} | ComisiÃ³n de {p.comision} | Ingreso: {p.fechaIngreso}</div>
+                    <div style={{ fontSize: "12px", color: COLORS.muted }}>BoletÃÂ­n {p.boletin} | ComisiÃÂ³n de {p.comision} | Ingreso: {p.fechaIngreso}</div>
                   </div>
                   <div style={{ display: "flex", gap: "6px", flexShrink: 0, marginLeft: "12px" }}>
                     <EstadoBadge estado={p.estado} />
@@ -363,7 +363,7 @@ const Legislativo = () => {
             <table style={{ width: "100%", borderCollapse: "collapse" }}>
               <thead>
                 <tr style={{ borderBottom: "2px solid #e2e8f0" }}>
-                  {["TÃ­tulo", "Tipo", "Fecha", "Estado"].map(h => (
+                  {["TÃÂ­tulo", "Tipo", "Fecha", "Estado"].map(h => (
                     <th key={h} style={{ textAlign: "left", padding: "10px 12px", fontSize: "12px", fontWeight: 700, color: COLORS.muted, textTransform: "uppercase", letterSpacing: "0.05em" }}>{h}</th>
                   ))}
                 </tr>
@@ -372,7 +372,7 @@ const Legislativo = () => {
                 {MOCIONES.map(m => (
                   <tr key={m.id} style={{ borderBottom: "1px solid #f1f5f9" }}>
                     <td style={{ padding: "12px", fontSize: "13px", fontWeight: 600, color: COLORS.text }}>{m.titulo}</td>
-                    <td style={{ padding: "12px" }}><Badge color={m.tipo === "MociÃ³n" ? "#3b82f6" : "#8b5cf6"}>{m.tipo}</Badge></td>
+                    <td style={{ padding: "12px" }}><Badge color={m.tipo === "MociÃÂ³n" ? "#3b82f6" : "#8b5cf6"}>{m.tipo}</Badge></td>
                     <td style={{ padding: "12px", fontSize: "13px", color: COLORS.muted }}>{m.fecha}</td>
                     <td style={{ padding: "12px" }}><EstadoBadge estado={m.estado} /></td>
                   </tr>
@@ -417,7 +417,7 @@ const Legislativo = () => {
                   <Tooltip />
                   <Legend />
                   <Line type="monotone" dataKey="sala" stroke="#3b82f6" strokeWidth={2.5} name="Sala" dot={{ r: 5 }} />
-                  <Line type="monotone" dataKey="comision" stroke="#22c55e" strokeWidth={2.5} name="ComisiÃ³n" dot={{ r: 5 }} />
+                  <Line type="monotone" dataKey="comision" stroke="#22c55e" strokeWidth={2.5} name="ComisiÃÂ³n" dot={{ r: 5 }} />
                 </LineChart>
               </ResponsiveContainer>
             </Card>
@@ -488,7 +488,7 @@ const Territorial = () => {
       <div style={{ display: "flex", gap: "6px", marginBottom: "20px", background: "#f1f5f9", borderRadius: "10px", padding: "4px", width: "fit-content" }}>
         <TabButton active={subTab === "mapa"} onClick={() => setSubTab("mapa")} icon="territorial">Vista Territorial</TabButton>
         <TabButton active={subTab === "agenda"} onClick={() => setSubTab("agenda")} icon="calendar">Agenda Terreno</TabButton>
-        <TabButton active={subTab === "casos"} onClick={() => setSubTab("casos")} icon="people">GestiÃ³n de Casos</TabButton>
+        <TabButton active={subTab === "casos"} onClick={() => setSubTab("casos")} icon="people">GestiÃÂ³n de Casos</TabButton>
       </div>
 
       {subTab === "mapa" && (
@@ -553,8 +553,8 @@ const Territorial = () => {
                   <div style={{ fontSize: "12px", color: COLORS.muted, marginTop: 2 }}>{a.comuna} | {a.hora}</div>
                 </div>
                 <Badge color={
-                  a.tipo === "ReuniÃ³n" ? "#3b82f6" : a.tipo === "Visita" ? "#22c55e" :
-                  a.tipo === "Audiencia" ? "#8b5cf6" : a.tipo === "InspecciÃ³n" ? "#f59e0b" : "#06b6d4"
+                  a.tipo === "ReuniÃÂ³n" ? "#3b82f6" : a.tipo === "Visita" ? "#22c55e" :
+                  a.tipo === "Audiencia" ? "#8b5cf6" : a.tipo === "InspecciÃÂ³n" ? "#f59e0b" : "#06b6d4"
                 }>{a.tipo}</Badge>
               </Card>
             ))}
@@ -685,14 +685,14 @@ const Fiscalizacion = () => {
 };
 
 // ==================== MAIN APP ====================
-export default function App() {
+function App() {
   const [activeTab, setActiveTab] = useState("dashboard");
 
   const tabs = [
     { id: "dashboard", label: "Dashboard", icon: "dashboard" },
     { id: "legislativo", label: "Legislativo", icon: "legislativo" },
     { id: "territorial", label: "Territorial", icon: "territorial" },
-    { id: "fiscalizacion", label: "FiscalizaciÃ³n", icon: "fiscalizacion" },
+    { id: "fiscalizacion", label: "FiscalizaciÃÂ³n", icon: "fiscalizacion" },
   ];
 
   return (
@@ -703,8 +703,8 @@ export default function App() {
         color: "#fff", display: "flex", flexDirection: "column", flexShrink: 0
       }}>
         <div style={{ padding: "24px 20px", borderBottom: "1px solid rgba(255,255,255,0.1)" }}>
-          <div style={{ fontSize: "18px", fontWeight: 800, letterSpacing: "-0.02em" }}>AMG DiputaciÃ³n</div>
-          <div style={{ fontSize: "11px", opacity: 0.6, marginTop: 4 }}>Sistema de GestiÃ³n Parlamentaria</div>
+          <div style={{ fontSize: "18px", fontWeight: 800, letterSpacing: "-0.02em" }}>AMG DiputaciÃÂ³n</div>
+          <div style={{ fontSize: "11px", opacity: 0.6, marginTop: 4 }}>Sistema de GestiÃÂ³n Parlamentaria</div>
         </div>
         <nav style={{ padding: "12px 10px", flex: 1 }}>
           {tabs.map(tab => (
@@ -722,7 +722,7 @@ export default function App() {
           ))}
         </nav>
         <div style={{ padding: "16px 20px", borderTop: "1px solid rgba(255,255,255,0.1)", fontSize: "11px", opacity: 0.5 }}>
-          v1.0 â Marzo 2026
+          v1.0 Ã¢ÂÂ Marzo 2026
         </div>
       </div>
 
@@ -737,15 +737,15 @@ export default function App() {
               {tabs.find(t => t.id === activeTab)?.label}
             </h1>
             <p style={{ fontSize: "12px", color: COLORS.muted, margin: "2px 0 0" }}>
-              {activeTab === "dashboard" && "Resumen general de la gestiÃ³n parlamentaria"}
+              {activeTab === "dashboard" && "Resumen general de la gestiÃÂ³n parlamentaria"}
               {activeTab === "legislativo" && "Proyectos de ley, mociones, oficios, asistencia y votaciones"}
-              {activeTab === "territorial" && "Agenda de terreno, gestiÃ³n de casos y vista por comunas"}
+              {activeTab === "territorial" && "Agenda de terreno, gestiÃÂ³n de casos y vista por comunas"}
               {activeTab === "fiscalizacion" && "Oficios fiscalizadores y comisiones investigadoras"}
             </p>
           </div>
           <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
             <div style={{ fontSize: "12px", color: COLORS.muted, textAlign: "right" }}>
-              <div style={{ fontWeight: 600, color: COLORS.text }}>Dip. VerÃ³nica Garrido</div>
+              <div style={{ fontWeight: 600, color: COLORS.text }}>Dip. VerÃÂ³nica Garrido</div>
               <div>29 de marzo, 2026</div>
             </div>
             <div style={{
@@ -774,3 +774,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   </script>
 </body>
 </html>
+
